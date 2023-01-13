@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,p{
+    padding:0;
+    margin:0rem;
+}
+
+header{
+    background-color: #cfcfcf;
+    height: 4.5rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 2fr;
+}
+
+.logo{
+    font-size: 2rem;
+    color:#181818;
+    align-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 8rem
+
+}
+.menu_text_1{
+    font-weight: bold;
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: end;
+    display:flex;
+    flex-wrap: wrap;
+    color:#181818;
+    
+}
+
+.menu_text_2{
+    font-weight: bold;
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: end;
+    display:flex;
+    flex-wrap: wrap;
+    color:#181818;  
+    
+}
+
+.pesquisa{
+    place-self: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    border: none;
+    
+
+}
+
+
+main{
+    background-color: #f0f0f0;
+    
+}
+.artigos{
+    margin: 0rem 10rem 0rem 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem
+}
+article{
+    background-color: white;
+    margin: 1rem;
+}
+
+.conteudo{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.titulo{
+    margin-bottom: 0.8rem;
+}
+
+.texto{
+    margin: 0.2rem;
+    font-size: 0.9rem;
+}
+
+button{
+    text-align: center;
+    margin: 1rem;
+    justify-content: end;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #cfcfcf;
+    color:#181818
+}
+
+footer{
+    background-color: #cfcfcf;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 16px;
+    font-size: 0.7rem;
+    text-align: center;
+    color:#181818
+}
+
+
